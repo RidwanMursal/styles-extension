@@ -1,0 +1,13 @@
+.theme-darkk {
+    --background-primary: rgba(0, 0, 0, 0.2);
+    --background-secondary: rgba(0, 0, 0, 0.2);
+    --background-secondary-alt: rgba(0, 0, 0, 0.2);
+    --background-tertiary: rgba(0, 0, 0, 0.2);
+}
+
+.bg-image {
+    background-image: url("https://media.discordapp.net/attachments/905945848163237998/1033149200520712293/Screen_Shot_2022-10-21_at_6.40.43_PM.png?width=1082&height=1069");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}

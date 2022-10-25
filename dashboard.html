@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard_styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="saved-sites-container">
+        <h1 class="saved-sites-header">
+            Saved Sites
+        </h1>
+        <div id="site-names">
+        </div>
+    </div>
+
+    <div class="forms">
+        <div class="site-name"  >
+            <h2>Name</h2>
+            <input type="text" id="site-name-input" value="https://github.com" >
+        </div>
+        <div class="js-input"  >
+            <h2>Javascript</h2>
+            <textarea name="js" id="js-textarea" cols="60" rows="10" >console.log("hello");</textarea>
+        </div>
+
+        <div class="css-input">
+            <h2>CSS</h2>
+            <textarea name="css" id="css-textarea" cols="60" rows="10" >body {color: green;}</textarea>
+        </div>
+
+        <button class="submit">Submit</button>
+    </div>
+
+    <script src="dashboard.js">
+        
+    </script>
+</body>
+</html>
